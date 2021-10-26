@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAZZ Cinemas</title>
+    <style>
+        .active{
+            text-decoration: none;
+            color:white;
+            margin-right: 10px;
+        }
+        nav{
+            background-color: black;
+            padding:15px 30px;
+            margin:0;
+        }
+        .text{
+            float:right;
+        }
+        button
+        {
+            margin-right: 5px;
+        }
+        h1{
+            background-color: DarkSlateGrey;
+            margin:0;
+            padding:40px 40px;
+        }
+        .cinemas{
+               display:inline-flex
+        }
+    
+        .n{
+            margin-Left: 70px;
+        }
+        .n1{
+            padding:5px;
+            border-radius: 6px;
+            color:white;
+            background-color: red;
+        }
+        .n2{
+            border:2px;
+            width:99%;
+            height:50%;
+            color:aqua;
+            background-color: black;
+        }
+        .n3{
+            margin-left:180px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="show.html" class="active">Home</a>
+        <a href="About.html" class="active">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <input type="text" class="text" name="search">
+        <button class="text">Search</button>
+    </nav>
+    <h1 align="center">JAZZ CINEMAS</h1>
+  <div class="cinemas">  
+     <div>
+              <h4>SCREEN1-ARANMANAI 3</h4>
+              <image src="images/aranmanai3.jfif"></image> 
+              <p>Aranmanai3-Horror,comedy,<a href="Cast.html">Cast and Crew</a></p>
+              <p><b>Released Date:</b>14-10-2021</p>
+              <p><b>Duration:</b>2:15:00</p>
+              <p><b>Ratings:</b>3.5/5</p>
+          <details>
+              <summary><button class="n1" type="submit">BOOK TICKETS</button></summary> <br>
+                Date: <input list="dates" name="Date" id="Date">
+               <datalist id="dates">
+                   <option value="Today">Today</option>
+                   <option value="Tomorrow">Tomorrow</option>
+                </datalist>
+              <h4>Available Time:</h4>
+                 <button class="n" type="submit"><a href="seatavailablity.html">9:15AM</button></a>&nbsp; &nbsp;
+                 <button type="submit">12:30PM</button>&nbsp; &nbsp;
+                 <button type="submit">4:00PM</button><br><br>
+                 <button class="n" type="submit">7:15PM</button>&nbsp; &nbsp;
+                 <button type="submit">10:30PM</button>
+           </details>
+     </div>   
+     <div class="n3">
+                <h4>SCREEN2-DOCTOR</h4>
+                <image src="Images/doctor.jfif"></image> 
+                <p>Doctor-Drama<a href="Cast1.html">Cast and Crew</a></p>
+                <p><b>Released Date:</b>09-10-2021</p>
+                <p><b>Duration:</b>2:25:00</p>
+                <p><b>Ratings:</b>4/5</p>
+         <details>
+             <summary><button class="n1" type="submit">BOOK TICKETS</button></summary> <br>
+                Date: <input list="dates" name="Date" id="Date">
+              <datalist id="dates">
+                 <option value="Today">Today</option>
+                 <option value="Tomorrow">Tomorrow</option>
+              </datalist>
+               <h4>Available Time:</h4>
+                  <button class="n" type="submit">9:15AM</button>&nbsp; &nbsp;
+                  <button type="submit">12:30PM</button>&nbsp; &nbsp;
+                  <button type="submit">4:00PM</button><br><br>
+                  <button class="n" type="submit">7:15PM</button>&nbsp; &nbsp;
+                 <button type="submit">10:30PM</button>
+         </details>
+      </div>   
+      <div class="n3">
+                  <h4>SCREEN3-VENOM</h4>
+                  <image src="images/venom.jfif"></image> 
+                  <p>Venom-Horror,Sci-fi,Thriller<a href="Cast2.html">Cast and Crew</a></p>
+                  <p><b>Released Date:</b>14-10-2021</p>
+                  <p><b>Duration:</b>1:30:00</p>
+                  <p><b>Ratings:</b>4/5</p>
+          <details>
+               <summary><button class="n1" type="submit">BOOK TICKETS</button></summary> <br>
+                  Date: <input list="dates" name="Date" id="Date">
+              <datalist id="dates">
+                  <option value="Today">Today</option>
+                  <option value="Tomorrow">Tomorrow</option>
+              </datalist>
+              <h4>Available Time:</h4>
+                  <button class="n" type="submit">9:15AM</button>&nbsp; &nbsp;
+                  <button type="submit">12:30PM</button>&nbsp; &nbsp;
+                  <button type="submit">4:00PM</button><br><br>
+                  <button class="n" type="submit">7:15PM</button>&nbsp; &nbsp;
+                  <button type="submit">10:30PM</button>
+              </details>
+        </div>   
+</div1>
+    
+</body>
+</html>
